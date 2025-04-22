@@ -14,6 +14,7 @@ const InputEstilo = styled.input`
     box-sizing: border-box;
     width: 100%;
     margin-top: ${props => props.theme.espacamentos.xs};
+    margin-bottom: ${props => props.theme.espacamentos.s};
     background: ${props => props.theme.cores.branco};
     border-radius: ${props => props.theme.espacamentos.s};
     border: 1px solid ${props => props.theme.cores.neutras.a};
